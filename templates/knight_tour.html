@@ -17,23 +17,54 @@
 					Jr. Software Engineer<br /></h1>
 				</div>
 			</header>
-
 		<!-- Main -->
 			<div id="main">
 
 				<!-- One -->
 					<section id="one">
 						<header class="major">
-							<h2>About Me</h2>
+							<h2>The Knight's Tour Problem</h2>
 						</header>
-						<p>Highly motivated to direct my career to a multidisciplinary field combining Software Engineering, Data
-						Engineering, Cloud Computing Solution, and Data Analytics.</p>
+						<p>Main menu where the user can access the linked list.<br />
+						<a><img src="./static/images/main_menu_kt.jpg" alt="" width="750" height="410"/></a>
+						</p>
+
+						<p>In this linked list, the user can store any number of initial positions.<br />
+						<a><img src="./static/images/linked_list_kt.jpg" alt="" width="750" height="410"/></a>
+						</p>
+
+						<p>The chessboard object stored in memory is an 8x8 array. In this case, the user selects as initial position the second row, and the second column.<br />
+						<a><img src="./static/images/initial_pos_kt.jpg" alt="" width="750" height="410"/></a>
+						</p>
+
+						<p>An new node object is created and appended to the linked list object. The user can add more initial position or go back the main menu.<br />
+						<a><img src="./static/images/el_linked_list_kt.jpg" alt="" width="750" height="410"/></a>
+						</p>
+
+						<p>Next, the user can solve the Knight's Tour Problem for each node contained in the linked list.<br />
+						<a><img src="./static/images/solve_kt.jpg" alt="" width="750" height="410"/></a>
+						</p>
+
+						<p>The first 32 moves of the knight objet are performed using Wardnsdoff’s heuristic. From his current position, the knight will always move to the postion were he will have the minimum options for the next position. We can see that that the knight moves along the inner border of the chessboard.<br />
+						<a><img src="./static/images/heuristic_kt.jpg" alt="" width="750" height="410"/></a>
+						</p>
+
+						<p>The last 32 moves of the knight objet are performed using backtracking. Indeed, the knight object is using his personal stack object to keep track of his path. When the knight is stuck, he will come back to the first path available and try to solve the tour. In worst case, he will attempt every single path possible to solve the tour. Lastly, we can notice that the behavior of the knight change drastically from the heuristic phase. From the intermediate position (1,3), he crosses the chessbaord following a diagonal. After four moves, the knight ends up at position (8,8).<br />
+						<a><img src="./static/images/backtracking_th.jpg" alt="" width="750" height="410"/></a>
+						</p>
+
+						<p>Finally, the knight solves the problem and from initial position (2,2), he ends up in final position (5,8).<br />
+						<a><img src="./static/images/solution_kt.jpg" alt="" width="750" height="410"/></a>
+						</p>
+
+
 						<ul class="actions">
-							<li><a href="./about.html" class="button">Learn More</a></li>
+							<li><a href="./index.html" class="button">Home Page</a></li>
 						</ul>
 					</section>
 
 				<!-- Two -->
+				<!--
 					<section id="two_b">
 						<h2>Recent Work</h2>
 						<div class="row">
@@ -51,10 +82,9 @@
 							<article class="col-6 col-12-xsmall work-item">
 								<a href="./static/images/knight_tour_descp.jpg" class="image fit thumb"><img src="./static/images/knigth_tour_img.jpg" alt="" /></a>
 								<h3>The Knight's Tour Problem</h3>
-								<p><a href="./knight_tour.html" style="color: red;"><em><b>EXPLORE THE KNIGHT'S TOUR PROBLEM</b></em></a></p>
-								<p><a href="./knight_tour.html" style="color: red;"><em><b>EXPLORE PRIVATE REPOSITORY ON GITHUB - ACCESS CODE REQUIRED</b></em></a></p>
+								<p><a href="./about.html" style="color: red;"><em><b>EXPLORE PROJECT 3</b></em></a></p>
 							</article>
-							<!--
+							
 							<article class="col-6 col-12-xsmall work-item">
 								<a href="./static/images/fulls/04.jpg" class="image fit thumb"><img src="./static/images/thumbs/04.jpg" alt="" /></a>
 								<h3>Project 4</h3>
@@ -74,10 +104,11 @@
 						<ul class="actions">
 							<li><a href="#" class="button">Full Portfolio</a></li>
 						</ul>
-						-->
+	
 					</section>
-
+				-->
 				<!-- Three -->
+				<!--
 					<section id="three">
 						<h2>Get In Touch</h2>
 						<p>Send me your information</p>
@@ -114,7 +145,7 @@
 							</div>
 						</div>
 					</section>
-
+				-->
 			</div>
 
 		<!-- Footer -->
